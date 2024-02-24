@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "inter", sans-serif;
+}
+
+body {
+  position: relative;
+  background-color: #bccbff;
+  position: relative;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: hsla(218, 57%, 48%, 0.608);
+  top: 0;
+  position: absolute;
+}
+ul li {
+  font-size: 20px;
+  margin-left: 20px;
+  display: inline-block;
+  padding-bottom: 2px;
+  border: none;
+
+  transition: all 0.1s;
+}
+ul li:hover {
+  border-bottom: solid 3px rgb(255, 247, 0);
+  transform: translateY(-3px);
+}
+ul {
+  margin-top: 13px;
+  margin-left: 50px;
+}
+ul li:last-child {
+  border: none;
+  width: 100px;
+  height: 30px;
+  padding-top: 3px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #ff233e;
+  margin-left: 80px;
+}
+ul li:last-child:hover {
+  background-color: rgb(255, 247, 0);
+}
+ul li:first-child {
+  margin-top: -5px;
+  border: none;
+  font-size: 30px;
+  margin-right: 400px;
+  transform: none;
+}
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+/* this is for the main contain container */
+.container-main {
+  z-index: 2;
+  position: absolute;
+  width: 80%;
+  height: 600px;
+  text-align: center;
+  border-radius: 30px;
+  left: 10%;
+  margin: 120px auto;
+  background-color: #d9d9d9;
+}
+.title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.text-title {
+  font-size: 40px;
+  font-style: italic;
+}
+.left-container {
+  top: 200px;
+  left: 50px;
+  border-radius: 20px;
+  position: absolute;
+  background-color: #ff9292;
+  height: 390px;
+  width: 500px;
+}
+.right-container {
+  top: 200px;
+  right: 50px;
+  border-radius: 20px;
+  position: absolute;
+  background-color: #ff9292;
+  height: 390px;
+  width: 600px;
+}
+
+/* this is for left box contain */
+.logo-contact-container {
+  position: absolute;
+  height: 250px;
+  width: 100px;
+  margin-left: 50px;
+  top: 70px;
+}
+.box {
+  background-color: #d9d9d9;
+  height: 70px;
+  width: 70px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.box img {
+  padding: 12px;
+}
+/* #this is for text  */
+.text-location {
+  font-size: 20px;
+  margin-top: 80px;
+  margin-left: 150px;
+  font-weight: bold;
+  text-align: left;
+}
+.text-email {
+  margin-top: 55px;
+  margin-left: 150px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+.text-phone {
+  margin-top: 50px;
+  margin-left: 150px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+/* this is for right container  */
+.input-fileds {
+  margin-top: 20px;
+  margin-left: 30px;
+  height: 300px;
+  width: 200px;
+  text-align: center;
+}
+.input-fileds input,
+.message {
+  padding-left: 30px;
+  font-size: 20px;
+  margin-bottom: 25px;
+  border-radius: 20px;
+  height: 40px;
+  width: 500px;
+  border: none;
+  outline: none;
+}
+.message {
+  height: 80px;
+}
+
+.message::placeholder {
+  font-size: 20px;
+  padding-left: 30px;
+}
+.input-fileds input::placeholder {
+  font-size: 20px;
+  padding-left: 30px;
+}
+.input-fileds input:last-child {
+  height: 100px;
+}
+.input-fileds button {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  width: 200px;
+  margin-left: 150px;
+  color: white;
+  background-color: #917fff;
+}
+.footer {
+  z-index: 3;
+  top: 800px;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+
+  background-color: rgb(76, 56, 56);
+}
+.footer p {
+  margin-top: 10px;
+  font-style: italic;
+  color: white;
+  font-size: 20px;
+}

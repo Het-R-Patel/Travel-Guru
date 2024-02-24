@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "inter", sans-serif;
+}
+
+body {
+  position: relative;
+  background-color: #bccbff;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: hsla(218, 57%, 48%, 0.608);
+  top: 0;
+  position: absolute;
+}
+ul li {
+  font-size: 20px;
+  margin-left: 20px;
+  display: inline-block;
+  padding-bottom: 2px;
+  border: none;
+
+  transition: all 0.1s;
+}
+ul li:hover {
+  border-bottom: solid 3px rgb(255, 247, 0);
+  transform: translateY(-3px);
+}
+ul {
+  margin-top: 13px;
+  margin-left: 50px;
+}
+ul li:last-child {
+  border: none;
+  width: 100px;
+  height: 30px;
+  padding-top: 3px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #ff233e;
+  margin-left: 80px;
+}
+ul li:last-child:hover {
+  background-color: rgb(255, 247, 0);
+}
+ul li:first-child {
+  margin-top: -5px;
+  border: none;
+  font-size: 30px;
+  margin-right: 400px;
+  transform: none;
+}
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+/* this is for main content */
+.container-main {
+  z-index: 2;
+  position: absolute;
+  width: 92%;
+  height: auto;
+  text-align: center;
+  border-radius: 30px;
+  margin: 80px 70px auto;
+  background-color: #94ccf5;
+}
+.container-main img {
+  margin-top: 50px;
+  margin-right: 70px;
+  float: right;
+  height: 280px;
+  width: 500px;
+
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px black;
+}
+.title {
+  margin-top: 90px;
+  margin-left: 150px;
+  display: block;
+  font-size: 50px;
+  float: left;
+}
+.travelguru {
+  display: block;
+  font-size: 80px;
+  float: left;
+  margin-left: -100px;
+  margin-top: 150px;
+  color: #ffffff;
+  transition: all 1s;
+}
+.travelguru:hover {
+  color: rgb(255, 0, 0);
+}
+
+.text-desc {
+  margin-top: 400px;
+  display: block;
+  width: 500px;
+  font-size: 29px;
+  text-align: left;
+  margin-left: -600px;
+  float: left;
+}
+/* this id for the features */
+.features {
+  bottom: 50px;
+  right: 20px;
+  position: absolute;
+  width: 600px;
+  height: 250px;
+  text-align: center;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: left;
+  gap: 60px;
+}
+.features p {
+  display: block;
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 50px;
+  /* justify-items: left; */
+  transition: all 0.5s;
+}
+.features p:hover {
+  color: rgb(251, 255, 0);
+}
+.items-1 {
+  margin-left: 50px;
+}
+.items-1,
+.items-2 {
+  margin-top: 50px;
+}
+.footer {
+  z-index: 3;
+  top: 800px;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+
+  background-color: rgb(76, 56, 56);
+}
+.footer p {
+  margin-top: 10px;
+  font-style: italic;
+  color: white;
+  font-size: 20px;
+}

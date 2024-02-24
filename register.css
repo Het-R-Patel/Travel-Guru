@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("bag.jpg") center/cover no-repeat;
+  overflow: hidden;
+  font-family: sans-serif;
+  /* position: relative; */
+}
+
+.overlay-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(
+    236,
+    182,
+    137,
+    0.7
+  ); /* Adjust the last value for the opacity */
+}
+
+.content {
+  position: absolute;
+  z-index: 1;
+  height: 650px;
+  border-radius: 25px;
+  width: 600px;
+  margin: 30px auto;
+  text-align: center;
+  background-color: #eed3d9;
+  box-shadow: 5px 5px 10px black;
+}
+.logo-img {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  height: 100px;
+}
+h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.First-name,
+.Middle-name,
+.Last-name,
+.Email,
+.Password,
+.confirm {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.first-name-label,
+.Middle-name-label,
+.Last-name-label,
+.Email-label,
+.Password-label,
+.confirm-label {
+  /* display: inline-block; */
+  font-size: 25px;
+  margin-left: 55px;
+}
+
+.first-name-input,
+.Middle-name-input,
+.Last-name-input,
+.Email-input,
+.Password-input,
+.confirm-input {
+  margin-right: 55px;
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+  padding-left: 20px;
+  background-color: #c5d6ef;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 2px 2px 3px black;
+}
+.first-name-input:hover,
+.Middle-name-input:hover,
+.Last-name-input:hover,
+.Email-input:hover,
+.Password-input:hover,
+.confirm-input:hover {
+  background-color: #b5c0d0;
+  border-bottom: solid 3px rgb(0, 0, 0);
+  border-left: solid 1px rgb(0, 0, 0);
+  border-right: solid 1px rgb(0, 0, 0);
+
+  box-shadow: none;
+}
+.button-sumbit {
+  margin-top: 10px;
+  font-size: 25px;
+  height: 35px;
+  width: 200px;
+  background-color: #c5d6ef;
+  border: none;
+  box-shadow: 2px 2px 5px black;
+  border-radius: 20px;
+}
+.button-sumbit:hover {
+  background-color: #161616;
+  border: solid 1px rgb(66, 64, 64);
+  color: white;
+  box-shadow: none;
+}
+
+.popup {
+  z-index: 3;
+  position: relative;
+  height: auto;
+  width: 400px;
+  margin: 150px auto;
+  background-color: #c5d6ef;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px black;
+}
+.modal-btns {
+  gap: 70px;
+  display: flex;
+  justify-content: center;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+.close-btn,
+.Confirm-btn {
+  font-size: 20px;
+  height: 30px;
+  width: 100px;
+  border-radius: 20px;
+  margin-top: 20px;
+  background-color: #c5d6ef;
+}
+.fullname-text {
+  margin-bottom: 20px;
+}
+.modal-details {
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 20px;
+  margin-left: 30px;
+  text-align: left;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 2;
+}
+.hidden {
+  display: none;
+}

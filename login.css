@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ecb689;
+  font-family: sans-serif;
+  position: relative;
+}
+/* images section */
+.logo-img-2 {
+  position: absolute;
+  top: 130px;
+  left: 550px;
+}
+.logo-img-1 {
+  position: absolute;
+  top: 20px;
+  left: 300px;
+}
+.logo-img {
+  position: absolute;
+  top: 130px;
+  left: 40px;
+}
+
+.logo-2 {
+  border-radius: 20px;
+  height: 500px;
+  box-shadow: 10px 10px 20px black;
+}
+.logo-1 {
+  border-radius: 20px;
+  height: 500px;
+  box-shadow: 10px 10px 20px black;
+}
+.logo {
+  border-radius: 20px;
+  height: 500px;
+  box-shadow: 10px 10px 20px black;
+}
+/* this is for login container */
+.container {
+  margin-top: 40px;
+  border: none;
+  border-radius: 57px;
+  margin-left: 950px;
+  width: 500px;
+  height: 630px;
+  text-align: center;
+  padding: 49px 0 0 0;
+  background-color: #eed3d9;
+  box-shadow: 5px 5px 10px black;
+}
+h3 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.login-logo {
+  margin-bottom: 20px;
+  height: 150px;
+  width: auto;
+}
+
+.username-lable,
+.password-lable {
+  display: block;
+  margin-left: -290px;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.username-input,
+.password-input {
+  margin: 0 30px;
+  border-radius: 20px;
+  display: block;
+  font-size: 30px;
+  height: 50px;
+  font-weight: bold;
+  width: 85%;
+  margin-bottom: 40px;
+  background-color: #b5c0d0;
+  border: none;
+  box-shadow: 2px 2px 5px black;
+  padding-left: 20px;
+  font-style: normal;
+}
+.username-input:focus,
+.password-input:focus {
+  background-color: #ffffff;
+
+  outline: none;
+}
+
+.button-signin {
+  background-color: #b5c0d0;
+  font-size: 30px;
+  width: 30%;
+  height: 50px;
+  font-weight: bold;
+  border-radius: 30px;
+  border: none;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 5px black;
+}
+.button-signin:hover {
+  color: white;
+  cursor: pointer;
+  width: 33%;
+  background-color: #7b99c8;
+  border: solid black 2px;
+}
+.username-img {
+  margin-left: 30px;
+  display: block;
+}
+
+.container p {
+  font-size: 15px;
+}
+.container a {
+  font-size: 15px;
+  text-decoration: none;
+}
